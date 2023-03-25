@@ -1,3 +1,8 @@
+# Meme Generator
+
+This is a simple web-based meme generator that randomly generates memes using HTML, CSS, and JavaScript.
+
+
 ## Features
 1.) Randomly generates memes from a list of pre-defined images and captions.
 
