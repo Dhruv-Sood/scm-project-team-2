@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  color: tomato;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  text-align: center;
+  padding: 20px;
+  font-size: 34px;
+
+  transition: 0.5s ease-in-out;
+}
+.heading h1 {
+  border-bottom: 2px solid tomato;
+}
+.meme-img {
+  height: 400px;
+  width: 567px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  align-self: center;
+  font-family: "Delicious Handrawn", cursive;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 802px) {
+  .heading h1 {
+    border-bottom: 2px solid tomato;
+    font-size: 57px;
+  }
+}
+
+@media only screen and (max-width: 598px) {
+  .meme-img {
+    height: 387px;
+    width: 507px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .heading h1 {
+    border-bottom: 2px solid tomato;
+    font-size: 45px;
+  }
+
+  .meme-img {
+    height: 322px;
+    width: 287px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
