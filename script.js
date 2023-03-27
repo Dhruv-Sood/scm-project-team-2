@@ -1,5 +1,4 @@
 const memes = [
-  "https://remote-tools-images.s3.amazonaws.com/programmer-memes/10.jpg",
   "https://i.redd.it/a0v87gwzoge61.jpg",
   "https://i.redd.it/q29egav34ee61.jpg",
   "https://i.redd.it/iij16swxjie61.jpg",
